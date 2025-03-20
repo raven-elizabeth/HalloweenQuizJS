@@ -1,0 +1,73 @@
+/*remove space at the top of the webpage so spiders look like they're hanging from the top*/
+html,
+body,
+img,
+h1 {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: orange;
+text-align: center;
+}
+
+/*style spider images*/
+.spiders {
+visibility: hidden;
+width: 5%;
+height: 5%;
+}
+
+/*style first spider image*/
+#spider1 {
+float: left;
+}
+
+/*style second spider image*/
+#spider2 {
+float: right;
+}
+
+/*sets display so all elements appear in correct positions underneath each other*/
+article {
+display: block;
+}
+
+h1 {
+font-family: Papyrus, fantasy, Arial, sans-serif;
+font-size: 250%;
+}
+
+p {
+font-family: Monaco, Lucida Console, Monospace;
+}
+
+/*style main photo*/
+#mainPhoto {
+width: 40%;
+height: 400px;
+}
+
+/*style bigger buttons*/
+.bigButton {
+height: 60px;
+width: 10%;
+background-color: black;
+color: white;
+}
+
+/*have the button change colour when hovered over (this is usually done by default, but has to be stated here because I changed the default background-color above)*/
+.bigButton:hover {
+background-color: grey;
+}
+
+/*hide next button*/
+#nextButton {
+visibility: hidden;
+}
+
+/*style footer*/
+footer {
+padding-top: 2.5%;
+}
