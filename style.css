@@ -63,7 +63,8 @@ background-color: grey;
 }
 
 /*hide next button*/
-#nextButton {
+#submitButton,
+#userInput {
 visibility: hidden;
 }
 
