@@ -1,4 +1,4 @@
-//using settimeout to alert user to exact answer requirements
+//using settimeout & alert to make user aware of exact answer requirements
 const timeout = setTimeout(warnUser, 1000);
 function warnUser() {
   const notify = alert("Be aware! The answers you provide will only be accepted as correct if they match the exact wording that is stored by this program.");
